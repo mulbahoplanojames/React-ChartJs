@@ -1,3 +1,4 @@
+import { Doughnut } from "react-chartjs-2";
 import BarChart from "./Components/Bar Chart/BarChart";
 import LineChart from "./Components/Line Chart/LineChart";
 import PieChart from "./Components/PieChart/PieChart";
@@ -9,6 +10,7 @@ const App = () => {
 				<LineChart />
 				<BarChart />
 				<PieChart />
+				<Doughnut />
 			</div>
 		</>
 	);

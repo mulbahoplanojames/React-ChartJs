@@ -1,3 +1,4 @@
+//! Bar Data
 export const barData = {
 	labels: [
 		"January",
@@ -35,6 +36,7 @@ export const barData = {
 	],
 };
 
+//! Pie Data
 export const pieData = {
 	labels: ["Rent", "Food", "Cloth", "Water", "Shoes", "Eletricity"],
 	id: "2",
@@ -75,6 +77,28 @@ export const pieData = {
 	],
 };
 
+//! doughNutData Data
+export const doughNutData = {
+	labels: ["Red", "Blue", "Yellow"],
+	datasets: [
+		{
+			label: "Doughnut Chart",
+			data: [300, 50, 100],
+			backgroundColor: [
+				"rgba(255, 99, 132, 0.6)",
+				"rgba(54, 162, 235, 0.6)",
+				"rgba(255, 206, 86, 0.6)",
+			],
+			hoverBackgroundColor: [
+				"rgba(255, 99, 132, 0.8)",
+				"rgba(54, 162, 235, 0.8)",
+				"rgba(255, 206, 86, 0.8)",
+			],
+		},
+	],
+};
+
+//! LineDate Data
 const lineData = {
 	labels: [
 		"Monday",
