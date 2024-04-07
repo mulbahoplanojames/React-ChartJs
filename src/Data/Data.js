@@ -47,8 +47,14 @@ const lineData = {
 	datasets: [
 		{
 			label: "Exercise Duration (minutes)",
-			data: [30, 45, 55, 40, 50, 55, 35],
+			data: [30, 40, 55, 40, 50, 55, 35],
 			borderColor: "rgba(75, 192, 192, 1)",
+			backgroundColor: "rgba(75, 192, 192, 0.2)",
+		},
+		{
+			label: "My Exercise Duration (minutes)",
+			data: [40, 65, 35, 30, 64, 25, 55],
+			borderColor: "rgba(240, 192, 192, 192)",
 			backgroundColor: "rgba(75, 192, 192, 0.2)",
 		},
 	],
