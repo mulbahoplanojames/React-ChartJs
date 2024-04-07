@@ -9,6 +9,7 @@ export const barData = {
 		"July",
 		"august",
 	],
+	id: "1",
 	datasets: [
 		{
 			label: "My Cash Spend Per Month",
@@ -34,6 +35,46 @@ export const barData = {
 	],
 };
 
+export const pieData = {
+	labels: ["Rent", "Food", "Cloth", "Water", "Shoes", "Eletricity"],
+	id: "2",
+	datasets: [
+		{
+			label: "My Living Expense in RWF",
+			data: [170000, 40000, 90000, 15000, 40000, 15000],
+			backgroundColor: [
+				"#FF6384",
+				"#36A2EB",
+				"#FFCE56",
+				"#FFCEf6",
+				"#FFAE56",
+				"#b48484",
+			],
+			hoverBackgroundColor: [
+				"#FF6384",
+				"#36A2EB",
+				"#FFCE56",
+				"#FFCEf6",
+				"#FFAE56",
+				"#b48484",
+			],
+		},
+		// {
+		// 	label: "My Friend Living Expense in RWF",
+		// 	data: [170000, 40000, 90000, 15000, 40000, 15000],
+		// 	backgroundColor: ["red", "green", "#000", "tomato", "purple", "skyblue"],
+		// 	hoverBackgroundColor: [
+		// 		"#FF6384",
+		// 		"#36A2EB",
+		// 		"#FFCE56",
+		// 		"#FFCEf6",
+		// 		"#FFAE56",
+		// 		"#b48484",
+		// 	],
+		// },
+	],
+};
+
 const lineData = {
 	labels: [
 		"Monday",
@@ -44,6 +85,7 @@ const lineData = {
 		"Saturday",
 		"Sunday",
 	],
+	id: "3",
 	datasets: [
 		{
 			label: "Exercise Duration (minutes)",
