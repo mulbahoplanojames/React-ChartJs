@@ -3,7 +3,7 @@ import { barData } from "../../Data/Data";
 
 import {
 	Chart as chartjs,
-	PointElement,
+	BarElement,
 	CategoryScale,
 	LinearScale,
 	Title,
@@ -12,7 +12,7 @@ import {
 } from "chart.js";
 
 chartjs.register(
-	PointElement,
+	BarElement,
 	CategoryScale,
 	LinearScale,
 	Title,
@@ -21,10 +21,12 @@ chartjs.register(
 );
 
 const BarChart = () => {
+	const oprions = { responsive: true, maintainAspectRatio: false };
+
 	return (
 		<>
 			<div className='w-[400px] h-[300px] rounded-md shadow-2xl border-2 border-red-600 overflow-hidden'>
-				<Bar data={barData} />;
+				<Bar data={barData} options={oprions} />
 			</div>
 		</>
 	);
