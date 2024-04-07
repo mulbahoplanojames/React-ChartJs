@@ -11,9 +11,24 @@ export const barData = {
 	],
 	datasets: [
 		{
-			label: "My First Dataset",
-			data: [65, 59, 80, 81, 56, 55, 40, 34],
-			borderColor: "rgb(75, 192, 192)",
+			label: "My Cash Spend Per Month",
+			data: [165, 259, 80, 121, 96, 85, 240, 134],
+			borderColor: "rgb(75, 12, 19)",
+			backgroundColor: "rgb(75, 192, 19)",
+			tension: 0.1,
+		},
+		{
+			label: "My Girlfriend Cash Spend Per Month",
+			data: [345, 359, 230, 181, 256, 55, 410, 344],
+			borderColor: "rgb(75, 12, 19)",
+			backgroundColor: "rgb(75, 192, 192)",
+			tension: 0.1,
+		},
+		{
+			label: "Our Son Cash Spend Per Month",
+			data: [445, 412, 325, 481, 356, 255, 510, 544],
+			borderColor: "rgb(75, 12, 19)",
+			backgroundColor: "rgb(75, 19, 192)",
 			tension: 0.1,
 		},
 	],
